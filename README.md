@@ -2,5 +2,7 @@
 
 Simple port scanner in bash
 
-Linux terminal ./ScanPort targetip targetport
+Open your Linux terminal enter the following command with permissions (chmod +x ./ScanPort)
+
+./ScanPort targetip targetport
 
