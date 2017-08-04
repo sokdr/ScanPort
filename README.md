@@ -9,3 +9,4 @@ Open your Linux terminal enter the following command with permissions (chmod +x 
 
 
 
+
