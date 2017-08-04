@@ -5,7 +5,7 @@ port="$2"
 echo "#######################################"
 echo "######### Welcome to ScanPort ##########"
 echo 
-echo -e "Now checking avalaibility of $ip"
+echo -e "Now checking availability of $ip"
 echo
 ping -c1 $ip >/dev/null 2>&1
 if [ "$?" = 0 ] ;
