@@ -8,8 +8,9 @@ Script checks for TCP ports 1-10000 and UDP ports 20-443
 
 <li>./ScanPort targetIP </li>
 
-<h1/><b>Example</b></h1>
-<ul>
+<H1><b>Example</b></H1>
+
+```
   ./ScanPort.sh 192.168.80.131
   #######################################
   ######### Welcome to ScanPort ##########
@@ -51,6 +52,4 @@ Script checks for TCP ports 1-10000 and UDP ports 20-443
   (UNKNOWN) [192.168.80.131] 21 (ftp) open
 
   Script completed in 11 seconds :
-
-</ul>
-
+```
