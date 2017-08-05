@@ -20,7 +20,7 @@ if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] ; then
 					if [[ $answer = tcp ]] ; then
 					echo "Now starting to scan the IP address: $ip for open TCP ports  "
 	        			echo "========================================================"
-					nc -vz -w 1 -n $ip 1-100
+					nc -vz -w 1 -n $ip 1-10000
 					echo
 					END=$(date +%s)
 					DIFF=$(( $END - $START ))
@@ -35,7 +35,7 @@ if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] ; then
 					DIFF=$(( $END - $START ))
 					echo "Script completed in $DIFF seconds :"
 				else 
-					echo "Wrong...Run again and type tcp or udp"
+					echo "Exiting...Run the script again and type tcp or udp"
 				fi
 		echo
 	
