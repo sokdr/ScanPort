@@ -1,8 +1,8 @@
 # ScanPort
 
-Simple port scanner in bash
+Port scanner in bash scripting 
 
-Open your Linux terminal enter the following command with permissions (chmod +x ScanPort)
+Open your Linux terminal enter the following command with permissions (chmod +x ScanPort.sh)
 
 Script checks for TCP ports 1-10000 and UDP ports 20-443 
 
