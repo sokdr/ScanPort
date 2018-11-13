@@ -1,5 +1,13 @@
 #!/usr/bin/env bash
 
+tput clear
+trap ctrl_c INT
+
+function ctrl_c() {
+        echo "**You pressed Ctrl+C...Exiting Script;"
+	exit 0;
+}
+
 ip="$1"
 echo "#######################################"
 echo "######### Welcome to ScanPort ##########"
