@@ -10,11 +10,11 @@ function ctrl_c() {
 
 ip="$1"
 echo "#######################################"
-echo "######### Welcome to ScanPort ##########"
+echo "######### Welcome to ScanPort Script ##########"
 echo
  
 if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] ; then 
-	echo "You entered a valid IPv4 address lets move on:"
+	echo "You entered a valid IPv4 address...lets move on:"
 	echo
 	echo -e "Now checking availability of $ip"
 	echo
