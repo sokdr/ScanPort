@@ -19,7 +19,7 @@ Script checks for TCP ports 1-10000 and UDP ports 20-443
 
   Now checking availability of 192.168.80.131
 
-  Host seems to be up....OK ;)
+  Host seems to be up.... ;)
 
   Do you want TCP or UDP port scan:// Just press tcp/udp to continue: tcp
   Now starting to scan the IP address: 192.168.80.131 for open TCP ports  
