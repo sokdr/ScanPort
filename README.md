@@ -8,7 +8,7 @@ Script checks for TCP ports 1-10000 and UDP ports 20-443
 
 <li>./ScanPort targetIP </li>
 
-<H1><b>Example</b></H1>
+<H2><b>Example</b></H2>
 
 ```
   ./ScanPort.sh 192.168.80.131
