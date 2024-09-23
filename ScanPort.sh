@@ -37,6 +37,7 @@ if [[ $ip =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}$ ]] ; then
 
         END=$(date +%s)
         DIFF=$(( END - START ))
+        echo
         echo "Script completed in $DIFF seconds."
     else
         echo "Host seems to be down.... exiting"
