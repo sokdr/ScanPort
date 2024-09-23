@@ -38,6 +38,8 @@ Scanning top 200 TCP ports on 192.168.100.7
 (UNKNOWN) [192.168.100.7] 5900 (?) : Connection refused
 (UNKNOWN) [192.168.100.7] 8080 (http-alt) : Connection refused
 (UNKNOWN) [192.168.100.7] 8443 (?) : Connection refused
+
 Script completed in 0 seconds.
+
 
 ```
