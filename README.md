@@ -12,7 +12,7 @@ To use the script, run the following command:
 ######## Welcome to ScanPort Script ########
 Now checking availability of 192.168.100.7
 Host is up.... OK ;)
-Scanning top 200 TCP ports on 192.168.100.7...
+Scanning top 200 TCP ports on 192.168.100.7 
 ========================================================
 (UNKNOWN) [192.168.100.7] 20 (ftp-data) : Connection refused
 (UNKNOWN) [192.168.100.7] 21 (ftp) : Connection refused
@@ -38,5 +38,6 @@ Scanning top 200 TCP ports on 192.168.100.7...
 (UNKNOWN) [192.168.100.7] 5900 (?) : Connection refused
 (UNKNOWN) [192.168.100.7] 8080 (http-alt) : Connection refused
 (UNKNOWN) [192.168.100.7] 8443 (?) : Connection refused
-Script completed in 1 seconds.
+Script completed in 0 seconds.
+
 ```
